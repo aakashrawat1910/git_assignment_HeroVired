@@ -33,9 +33,3 @@ if __name__ == "__main__":
     # Testing square root feature
     num3 = 25
     print(f"The square root of {num3} = {calculator.square_root(num3)}")
-    
-    # Testing division by zero error handling
-    try:
-        print(calculator.divide(10, 0))
-    except ValueError as e:
-        print(f"Error: {e}")
