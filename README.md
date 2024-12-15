@@ -132,9 +132,7 @@ git merge hotfix/divide
 ```bash
 git lfs install
 git checkout -b lfs
-git lfs track "*.bin"
-echo "*.bin" >> .gitattributes
-git add .gitattributes large_file.bin
+git lfs track "*.mkv"
 git commit -m "Added large file with Git LFS"
 git push origin lfs
 ```
